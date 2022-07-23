@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 body {
   background-color: white;
   width: 100%;
@@ -67,21 +67,6 @@ body {
   font-family: "Cormorant SC", serif;
   font-size: 20px;
 }
-button:hover {
-  box-shadow: 2px 2px 2px 2px maroon;
-  background-color: white;
-  color: rgb(173, 13, 236);
-  font-size: 30px;
-  border-radius: 10px;
-}
-.transfer:hover{
-  box-shadow: 2px 2px 2px 2px black;
-  background-color: crimson;
-  color: white;
-  font-size: 20px;
-  border-radius: 5px;
-}
-
 .less-icon {
   margin-left: 10px;
 }
@@ -94,7 +79,7 @@ button:hover {
   ------------------------------------- */
 .main {
   display: flex;
-  height: 140vh;
+  height: 85vh;
   width: 90%;
   box-sizing: border-box;
   margin: auto;
@@ -128,56 +113,79 @@ button:hover {
   align-items: center;
   justify-content: center;
 }
-.aside .aside-button3 {
-  background-color: #dd0000;
-  color: aliceblue;
-}
 .aside a:hover {
   box-shadow: 1px 1px 2px 2px aquamarine;
   background-color: #dd0000;
   color: white;
   font-size: 18px;
 }
-.aside .aside-button3:hover {
+.aside .aside-button1 {
+  background-color: #dd0000;
+  color: aliceblue;
+}
+button:hover {
+  box-shadow: 2px 2px 2px 2px maroon;
+  background-color: white;
+  color: rgb(173, 13, 236);
+  font-size: 30px;
+  border-radius: 10px;
+}
+.aside .aside-button1:hover {
   box-shadow: 2px 2px 2px 2px orangered;
-  background-color:orange;
+  background-color: orange;
   color: white;
   font-size: 20px;
 }
-.blog-layout {
-  box-sizing: border-box;
+/*------------------------------
+=---------------- Match schedule start-------------------------=
+----------------------------------------------------------------- */
+.match-schedule {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 24px;
 }
-.section2 img {
-  width: 100%;
-}
-.icon {
+
+.match-schedule .match {
   display: flex;
+  flex-direction: column;
+  align-items: center
 }
-.icon-part1,
-.icon-part2 {
+.national-flag {
   display: flex;
+  /* flex-direction: row; */
+  /* justify-content: space-around; */
   align-items: center;
-  margin-right: 20px;
 }
-.icon img {
-  width: 15px;
-  height: 15px;
-  margin-right: 5px;
+.flag1{
+  margin-right: 8px;
 }
-.blog {
+.flag2{
+  margin-left: 8px;
+}
+.match {
   box-shadow: 0px 0px 1px 0px gray;
   border-radius: 9px;
-  transition: transform .2s ease-in-out ;
+  padding: 50px 30px;
+  background-color: #fff;
+  transition: transform .3s ease-in-out ;
 }
-.blog:hover{
-  background-color:gainsboro;
-  transform: scale(1.05);
+.match:hover{
+  background-color:blanchedalmond;
+  transform: scale(1.2);
 }
-.blog-info {
-  padding: 15px;
+.match-info h1 {
+  font-family: "Poppins", sans-serif;
+}
+.match-info h1 {
+  font-family: "Poppins", sans-serif;
+}
+.vs {
+  font-family: "Abril Fatface", cursive;
+  /* font-size: 24px; */
+}
+
+.section2 img {
+  width: 100%;
 }
 /*------------------------
                          Main Area End 
@@ -213,9 +221,4 @@ hr {
   justify-content: center;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-}
-.footer-area-link a:hover {
-  color: maroon;
-  box-shadow: 1px 1px 1px 1px red;
-  font-size: 18px;
 }
