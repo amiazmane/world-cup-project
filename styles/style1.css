@@ -1,0 +1,123 @@
+@media screen and (max-width: 688px) {
+  /*------------------------
+  =----------- Header Part Start-----------=
+  --------------------------------------------------- */
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  body {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .header-area {
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+  }
+  .left {
+    margin-top: -80px;
+  }
+  button:hover {
+    box-shadow: 2px 2px 2px 2px maroon;
+    background-color: white;
+    color: rgb(173, 13, 236);
+    font-size: 30px;
+    border-radius: 10px;
+  }
+  .right {
+    margin-top: -80px;
+  }
+
+  .header-area .left {
+    width: fit-content;
+    background-color: goldenrod;
+    color: crimson;
+  }
+  .header-area .right {
+    width: 100%;
+    color: crimson;
+  }
+  .header-area img {
+    margin-bottom: -5px;
+    padding-bottom: 0;
+  }
+  /*------------------------
+  =----------- Header Part End-----------=
+  --------------------------------------------------- */
+  /*-------------------------------
+  =-------------- Main Section Start---------------=
+  ------------------------------------------------------------ */
+  .main-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-section .section2 .blog-layout {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 500vh;
+  }
+  .section1 {
+    margin-top: -80px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .aside {
+    display: grid;
+    background-color: transparent;
+    align-items: center;
+    justify-items: center;
+  }
+  .aside a {
+    border: 0.5px solid gray;
+  }
+  .aside a:hover {
+    box-shadow: 1px 1px 2px 2px red;
+  }
+  .aside .aside-button3:hover {
+    box-shadow: 2px 2px 2px 2px maroon;
+    background-color: white;
+    color: darkred;
+    font-size: 30px;
+  }
+
+  /*---------------------------
+------------- Footer Area start-----------
+--------------------------------------------------- */
+  .footer-area {
+    margin-top: 2350px;
+    width: 100%;
+    height: fit-content;
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-left: -4%;
+    margin-right: 0;
+    padding-bottom: 20px;
+  }
+  .footer-title {
+    padding-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+  }
+  .footer-area-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-area-link a {
+    margin-top: 30px;
+  }
+  .footer-area-link a:hover {
+    color: maroon;
+    box-shadow: 1px 1px 1px 1px red;
+  }
+
+  /*------------------------------
+  -------------- Media Querie End
+  ----------------------------------------- */
+}
