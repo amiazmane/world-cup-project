@@ -84,6 +84,11 @@
     color: darkred;
     font-size: 30px;
   }
+  .transfer {
+    margin-left: 40%;
+    background-image: linear-gradient(to bottom right,black, red);
+    padding: 5px 15px;
+  }
 
   /*---------------------------
 ------------- Footer Area start-----------

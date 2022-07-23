@@ -144,6 +144,12 @@ button:hover {
   color: white;
   font-size: 20px;
 }
+.transfer {
+  margin-left: 30%;
+  background-image: linear-gradient(to bottom right,black, red);
+  color: white;
+  border-radius: 5px;
+}
 .blog-layout {
   box-sizing: border-box;
   display: grid;
